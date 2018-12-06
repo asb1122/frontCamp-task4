@@ -19,3 +19,5 @@ function sendRequest(url, httpMethod, bodyContent){
     return responsePromise;
 
 }
+
+export {sendRequest}
